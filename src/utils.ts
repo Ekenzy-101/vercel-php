@@ -78,11 +78,11 @@ export async function runComposerInstall(workPath: string): Promise<void> {
       COMPOSER_BIN,
       'install',
       '--profile',
-      '--no-dev',
-      '--no-interaction',
-      '--no-scripts',
-      '--ignore-platform-reqs',
-      '--no-progress'
+      // '--no-dev',
+      // '--no-interaction',
+      // '--no-scripts',
+      // '--ignore-platform-reqs',
+      // '--no-progress'
     ],
     {
       stdio: 'inherit',
